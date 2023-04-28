@@ -260,14 +260,16 @@ body {
   width: calc((100%-72px) / 4);
 }
 .advantages-list-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
   background: var(--cloud-bg-color);
   border-radius: 4px;
   padding: 24px 100px;
   margin-bottom: 8px;
 }
 .advantages-list-icon {
-  width: 64px;
-  height: 64px;
 }
 /* ========== /Advantages Section ============ */
 
@@ -303,9 +305,7 @@ body {
 }
 .team-list-content-wrapper {
   padding-top: 32px;
-  padding-right: 16px;
   padding-bottom: 32px;
-  padding-left: 16px;
 }
 .team-name {
   font-weight: 500;
@@ -398,8 +398,6 @@ body {
   fill: #404bbf;
 }
 .customers-list-icon {
-  width: 104px;
-  height: 56px;
   fill: currentColor;
 }
 /*  ========== /Customers  ========== */
@@ -412,6 +410,7 @@ body {
 }
 .footer-wrapper {
   display: flex;
+  align-items: baseline;
 }
 .footer-desc {
   margin-right: 120px;
