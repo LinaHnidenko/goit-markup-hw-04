@@ -365,6 +365,9 @@ body {
 /* ========== /Our Team ============ */
 
 /*  ==========Customers  ==========*/
+.customers-title {
+  line-height: 1.1;
+}
 .customers-list {
   display: flex;
   justify-content: center;
@@ -389,13 +392,7 @@ body {
 .customers-list-link:hover,
 .customers-list-link:focus {
   border-color: #404bbf;
-}
-.customers-list-link:hover .customers-list-icon {
-  fill: #404bbf;
-}
-
-.customers-list-link:focus .customers-list-icon {
-  fill: #404bbf;
+  color: #404bbf;
 }
 .customers-list-icon {
   fill: currentColor;
@@ -478,8 +475,6 @@ body {
 }
 
 .footer-list-icon {
-  width: 24px;
-  height: 24px;
   fill: currentColor;
 }
 /* ========== /Footer ============ */
